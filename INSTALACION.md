@@ -1,6 +1,6 @@
 # INSTALACION Y CONFIGURACION DE DNSMASQ
 
-## SERVIDOR
+## CONFIGURACION SERVIDOR
 
 Primero vamos a descargar el paquete
 ``apt install dnsmasq``
@@ -37,3 +37,15 @@ Ejecutamos:
 Y nos deberia quedar de la siguiente manera:
 
 ![img](https://i.imgur.com/y690hsH.png)
+
+
+## CONFIGURACION CLIENTE
+En el cliente solo tenemos que configurar la ip, dandole la que pusimos anteriormente en /etc/hosts en el servidor.
+
+Y los dns, dandole la ip del servidor (red interna)
+
+Por lo tanto:
+
+![img](https://i.imgur.com/8MYHQPl.png)
+
+![img](https://i.imgur.com/l1UMRR3.png)
